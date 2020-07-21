@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#929398"
+    android:orientation="vertical"
+    tools:context=".home">
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="40dp"
+        android:text="اقسام المسابيح"
+        android:textAlignment="center"
+        android:textColor="#DAB603"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="126dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="230dp"
+        android:background="#FBC02D"
+        android:text="الاحجار"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="126dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="-90dp"
+        android:layout_marginBottom="40dp"
+        android:background="#FBC02D"
+        android:text="الكهرب الالماني"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="126dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="230dp"
+        android:background="#FBC02D"
+        android:text="الكهرب البولندي"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="126dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="-90dp"
+        android:layout_marginBottom="40dp"
+        android:background="#FBC02D"
+        android:text="الكهرب الحر"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="126dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="230dp"
+        android:background="#FBC02D"
+        android:text="الكهرب الاوكراني و البلطيقي وغيره"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="126dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="-90dp"
+        android:background="#FBC02D"
+        android:text="المصنع"
+        android:textSize="20dp" />
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="102dp"
+android:background="#1976D2"
+
+        android:layout_height="61dp"
+        android:text="الرجوع" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="#1976D2"
+        android:text="صفحت الاعلانات" />
+
+    <Button
+        android:id="@+id/button3"
+        android:background="#1976D2"
+
+        android:layout_width="102dp"
+        android:layout_height="61dp"
+
+
+        android:text="عرض منتج" />
+
+    <Button
+        android:id="@+id/button4"
+        android:background="#1976D2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="الملف الشخصي" />
+
+
+</LinearLayout>
